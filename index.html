@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Space Shooter</title>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=VT323" type='text/css'>
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			background: #666;
+		}
+
+		h1 {
+			font-family: 'VT323';
+			text-align: center;
+			font-size: 2.5em;
+			color: #0f0;
+		}
+		p {
+			text-align: center;
+			font-family: 'VT323';
+			font-size: 1.2em;
+			color: white;
+		}
+		canvas {
+			display: block;
+			margin: 30px auto 0;
+			border: 1px dashed #ccc;
+			background: #000;
+		}
+	</style>
+</head>
+<body>
+	<h1>Star Wars VII Shooter</h1>
+	<p>Utilises les flèches directionnelles pour te diriger et la touche espace pour tirer et vaincre les vaisseaux de l'empire !</p>
+	<canvas id="game" width="600" height="600">
+		<p>Zut, votre naviguateur ne supporte pas canvas!</p>
+		<p><a href="http//browsehappy.com"> Utilisez celui-ci ! </a></p>
+	</canvas>
+	<script src="shooter.js"></script>
+</body>
+</html>
